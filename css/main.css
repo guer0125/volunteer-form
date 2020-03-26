@@ -1,0 +1,37 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+label {
+  display: inline-block;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+}
+
+form {
+  background-color: #fff;
+}
+
+h1 {
+  border-bottom: solid 1px #000;
+}
+
+.align {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .space-right {
+    padding-right: 5rem;
+  }
+
+  .space-left {
+    padding-left: .5rem;
+  }
+
+}
