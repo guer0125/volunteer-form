@@ -7,13 +7,18 @@ label {
   display: inline-block;
 }
 
-button {
-  background-color: #000;
+.button {
+  background-color: #6e8c62;
+  border: #6e8c62;
   color: #fff;
 }
 
 form {
   background-color: #fff;
+}
+
+.green {
+  background-color: #70ad55;
 }
 
 h1 {
@@ -22,6 +27,7 @@ h1 {
 
 .align {
   text-align: center;
+  color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
