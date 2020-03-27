@@ -1,5 +1,5 @@
 html {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   background-color: #fff;
 }
 
@@ -29,10 +29,15 @@ form {
 
 .green {
   border-color: #70ad55;
+  color: #70ad55;
 }
 
 .no-border {
   border-top: 2px solid #fff;
+}
+
+.foradress {
+  border-top: 1px solid #6e8c62;
 }
 
 input,
