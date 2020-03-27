@@ -8,35 +8,35 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,700i&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <form class="gutter pad-t-2 pad-b-2 max-length" method="POST">
-    <div class="green">
-      <h1 class="normal">Apply to be a tree planter</h1>
-      <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-    </div>
+    <header class="island-1-2 green">
+      <h1 class="bold pad-t-1-2 pad-b-1-2 push-0">Apply to be a tree planter</h1>
+      <p class="bold mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </header>
 
-    <fieldset class="push-0">
-      <legend class="giga italic push-0 pad-b-1-2">Personal details</legend>
-      <div class="grid">
+    <form class="gutter-1-2 max-length">
+      <h2 class="giga push-0 pad-t-2 pad-b">Personal details</h2>
+      <fieldset class="push-0 no-border">
+      <div class="grid pad-b-1-4">
         <div class="pad-b unit xs-1 m-1 l-1-2">
-          <label for="name">Full name</label>
+          <label for="name" class="pad-t-1-8 pad-b-1-8"">Full name</label>
           <input id="name" name="name" required>
-          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          <p class="italic nano not-bold push-0 pad-t-1-8">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
         <div class="pad-b unit xs-1 m-1 l-1-2">
-          <label for="text">What should we call you?</label>
-          <input id="text" name="text">
-          <p>What all your friends call you, e.g. “Liz”.</p>
+          <label for="text" class="pad-b-1-8">What should we call you?</label>
+          <input id="text" class="green" name="text">
+          <p class="italic nano push-0 pad-t-1-8">What all your friends call you, e.g. “Liz”.</p>
         </div>
         <div class="pad-b unit xs-1 m-1 l-1-2">
-          <label for="date">Date of birth</label>
-          <input id="date" name="date">
+          <label for="date" class="pad-b-1-8">Date of birth</label>
+          <input id="date" type="date" name="date">
         </div>
         <div class="pad-b unit xs-1 m-1 l-1-2">
-          <label for="select">T-shirt size</label>
+          <label for="select" class="pad-b-1-8">T-shirt size</label>
           <select id="select" name="select">
             <option>Select a t-shirt size</option>
             <option>Fitted: XS</option>
@@ -51,19 +51,19 @@
             <option>Straight-cut: XL</option>
           </select>
         </div>
-        <div class="pad-b unit xs-1 m-1 l-1-2">
-          <label for="email">email</label>
+        <div class="unit pad-b unit xs-1 m-1 l-1-2">
+          <label for="email" class="pad-b-1-8">Email</label>
           <input id="email" type="email" name="email" required>
         </div>
-      <div class="pad-b-1-2 xs-1 m-1 l-1">
-        <label for="tel">Phone number (optional)</label>
-        <input id="tel" name="textarea">
-      </div>
+        <div class="unit pad-b xs-1 m-1 l-1">
+          <label for="tel" class="pad-b-1-8">Phone number (optional)</label>
+          <input id="tel" type="tel" name="textarea">
+        </div>
       </div>
     </fieldset>
 
-    <fieldset class="push-0">
-      <legend class="giga italic push-0 pad-b-1-2">Address</legend>
+    <fieldset class="push-0 green">
+      <h2 class="giga push-0 pad-t-2 pad-b-1">Address</h2>
       <div class="grid">
         <div class="pad-b unit xs-1 m-1 l-1-2">
           <label for="address">Street address</label>
@@ -74,33 +74,33 @@
           <input id="city" name="city">
         </div>
         <div class="pad-b unit xs-1 m-1 l-1-2">
-          <label for="province">Province</label>
-          <select id="province" name="province">
-            <option>Select a province</option>
-            <option>Alberta</option>
-            <option>British Columbia</option>
-            <option>Manitoba</option>
-            <option>New Brunswick</option>
-            <option>Newfoundland & Labrador</option>
-            <option>Northwest Territories</option>
-            <option>Nova Scotia</option>
-            <option>Nunavut</option>
-            <option>Ontario</option>
-            <option>Prince Edward Island</option>
-            <option>Québec</option>
-            <option>Saskatchewan</option>
-            <option>Yukon</option>
+          <label for="datalist">Province</label>
+          <select id="datalist" name="datalist">
+            <option value="">Select a province</option>
+            <option value="">Alberta</option>
+            <option value="">British Columbia</option>
+            <option value="">Manitoba</option>
+            <option value="">New Brunswick</option>
+            <option value="">Newfoundland & Labrador</option>
+            <option value="">Northwest Territories</option>
+            <option value="">Nova Scotia</option>
+            <option value="">Nunavut</option>
+            <option value="">Ontario</option>
+            <option value="">Prince Edward Island</option>
+            <option value="">Québec</option>
+            <option value="">Saskatchewan</option>
+            <option value="">Yukon</option>
           </select>
         </div>
-      <div class="pad-b-1-2 xs-1 m-1 l-1">
-        <label for="postal-code">Postal code</label>
-        <input id="postal-code" name="postal-code">
-      </div>
+        <div class="unit pad-b-2 xs-1 m-1 l-1">
+          <label for="pcode">Postal code</label>
+          <input id="pcode" name="pcode">
+        </div>
       </div>
     </fieldset>
 
     <fieldset>
-      <legend>What activities are you interested in helping with?</legend>
+      <legend class="unit pad-t">What activities are you interested in helping with?</legend>
       <input id="digging" type="checkbox">
       <label for="digging">Digging holes</label>
 
@@ -187,15 +187,15 @@
       <textarea id="comments" name="textarea"></textarea>
 
       <div class="pad-b bold align xs-1 m-1 l-1">
-      <button class="btn button" type="submit">Apply</button>
-      <input type="hidden" name="_subject" value="Request to join the mission">
+        <button class="btn button" type="submit">Apply</button>
+        <input type="hidden" name="_subject" value="Request to join the mission">
       </div>
     </fieldset>
 
-<footer class="green">
-© Tree Hugger International Organization
-</footer>
+    <footer class="green">
+      © Tree Hugger International Organization
+    </footer>
 
-</form>
+  </form>
 </body>
 </html>
