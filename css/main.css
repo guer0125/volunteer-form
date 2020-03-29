@@ -5,9 +5,10 @@ html {
 
 fieldset {
   display: inline-block;
+  border: 0;
 }
 
-header {
+.green {
   background-color: #70ad55;
   color: #fff;
 }
@@ -16,9 +17,13 @@ form {
   background-color: #fff;
 }
 
+hr {
+  border-color: #70ad55;
+}
+
 .button {
   background-color: #6e8c62;
-  border-color: #70ad55;
+  border-color: #6e8c62;
   color: #fff;
 }
 
@@ -27,17 +32,8 @@ form {
   color: #fff;
 }
 
-.green {
-  border-color: #70ad55;
+.greentext {
   color: #70ad55;
-}
-
-.no-border {
-  border-top: 2px solid #fff;
-}
-
-.foradress {
-  border-top: 1px solid #6e8c62;
 }
 
 input,
@@ -45,14 +41,14 @@ select {
   border-color: #6e8c62;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
   .space-right {
-    padding-right: 5rem;
+    padding-right: 3rem;
   }
 
   .space-left {
-    padding-left: .5rem;
+    padding-left: .3rem;
   }
 
 }
