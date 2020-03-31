@@ -41,6 +41,14 @@ select {
   border-color: #6e8c62;
 }
 
+.box-size {
+  height: 10rem;
+}
+
+.radio-space {
+  margin-left: 1rem;
+}
+
 @media only screen and (min-width: 38em) {
 
   .space-right {
